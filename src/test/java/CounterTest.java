@@ -3,7 +3,7 @@ package src.test.java;
 import static org.junit.Assert.*;
 import src.main.java.*;
 import org.junit.Test;
-
+  
 public class CounterTest {
 
 	@Test
@@ -17,7 +17,7 @@ public class CounterTest {
 		testCounter.reset();
 		
 		assertEquals(testCounter.getCount(), 0);
-	}
+	}  
 
 	@Test
 	public void testIncrement() {
